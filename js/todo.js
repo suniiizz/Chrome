@@ -7,7 +7,7 @@ const TODOS = "toDos";
 // let - 가져오고 변환 가능한 상태로
 let toDos = [];
 
-// JSON.stringify() - 값이나 객체를 문자열로 변환
+// JSON.stringify() - 값이나 객체를 JSON 문자열로 변환
 // 저장된 todo 리스트를 문자열로 변환하여 배열
 function saveTodos() {
   // localStorage - 브라우저에 데이터를 저장하고 불러올 수 있는 API
