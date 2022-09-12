@@ -20,9 +20,9 @@ li {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
-}
-li:last-child {
-  padding-bottom: 0;
+  &:last-child {
+    padding-bottom: 0;
+  }
 }
 
 button {
@@ -55,29 +55,27 @@ img {
   align-items: center;
   justify-content: center;
   color: #fff;
+  h2 {
+    font-size: 5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  input {
+    appearance: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 1.125rem;
+    &::placeholder {
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  #weather {
+    margin-top: 20px;
+  }
 }
-.container h2 {
-  font-size: 5rem;
-}
-.container h1 {
-  font-size: 2.5rem;
-}
-.container input {
-  appearance: none;
-  border: none;
-  background: none;
-  border-bottom: 2px solid #fff;
-  color: #fff;
-  font-size: 1.125rem;
-}
-.container input::placeholder {
-  color: #fff;
-}
-.container input:focus {
-  outline: none;
-}
-.container #weather {
-  margin-top: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
